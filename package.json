@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -D build",
+    "deploy": "books -D build",
     "server": "json-server -p 3001 --watch db.json",
     "build": "react-scripts build",
     "test": "react-scripts test",
